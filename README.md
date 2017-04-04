@@ -27,16 +27,6 @@ Enter the command: `shotgun -p 8080 -o 0.0.0.0.`. Your server is now running! Yo
   - language (Ruby) and version
   - date and time the server has started up  
 
-You'll also notice a link that conveniently pops up in your terminal. This is our web app! If you click this link it will take you to the location of your app! You're probably thinking, but we haven't coded anything?  
-
-Luckily, since Sinatra is built with Ruby, it also provides some great error messages! Let's check out our first error message.  
-![4](http://i.imgur.com/ayW2zdq.png?1)  
-
-This tells us a few things:
-- We need to add code to our `application_controller.rb`
-- There needs to be a class called `ApplicationController`
-- There needs to be some type of method or function inside the class  
-
 # views
 Let's open our `index.erb` file. **ERB**, or Embedded Ruby, is a simply an HTML file that can have Ruby logic embedded in. Seeing as this is a *template* you can use over and over again, you'll notice much of the *meta data* is already filled in to save you time. There is already a link to our stylesheet, a `title` attribute, and a container `div` inside the `body` attribute. 
 ```html
